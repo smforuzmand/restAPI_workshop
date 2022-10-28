@@ -4,7 +4,8 @@ import lombok.*;
 import org.modelmapper.internal.bytebuddy.build.ToStringPlugin;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class Person {
 @Column(nullable = false, name = "last_name")
     private String lastName;
 
-    private LocalDateTime birthDate;
+    private LocalDate birthDate;
 
 
 

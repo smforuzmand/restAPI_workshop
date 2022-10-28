@@ -3,7 +3,7 @@ package se.lexicon.restapi_workshop.model.form;
 import lombok.*;
 
 import javax.persistence.Column;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 
 
@@ -22,5 +22,5 @@ public class PersonForm {
 
     private String lastName;
 
-    private LocalDateTime birthDate;
+    private LocalDate birthDate;
 }
