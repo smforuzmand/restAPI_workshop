@@ -1,8 +1,4 @@
-
-The purpose of the API is to manage tasks to be done.
-This might be used at a company for keeping track of a projects flow. Making sure that the project is
-on schedule and workers know their task to be done.
-
+This is a simple project for the application of A REST PROJECT
 Already implemented:
 • Entity with Relationships
 • Repositories
